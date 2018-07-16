@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9690BBA920FD057000DC676C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9690BBA820FD057000DC676C /* AppDelegate.swift */; };
+		9690BBAB20FD057000DC676C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9690BBAA20FD057000DC676C /* GameScene.sks */; };
+		9690BBAD20FD057000DC676C /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9690BBAC20FD057000DC676C /* Actions.sks */; };
+		9690BBAF20FD057000DC676C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9690BBAE20FD057000DC676C /* GameScene.swift */; };
+		9690BBB120FD057000DC676C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9690BBB020FD057000DC676C /* GameViewController.swift */; };
+		9690BBB420FD057000DC676C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9690BBB220FD057000DC676C /* Main.storyboard */; };
+		9690BBB620FD057000DC676C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9690BBB520FD057000DC676C /* Assets.xcassets */; };
+		9690BBB920FD057000DC676C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9690BBB720FD057000DC676C /* LaunchScreen.storyboard */; };
+		9690BBC420FD057000DC676C /* NaveEspacialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9690BBC320FD057000DC676C /* NaveEspacialTests.swift */; };
+		9690BBCF20FD057000DC676C /* NaveEspacialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9690BBCE20FD057000DC676C /* NaveEspacialUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9690BBC020FD057000DC676C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9690BB9D20FD057000DC676C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9690BBA420FD057000DC676C;
+			remoteInfo = NaveEspacial;
+		};
+		9690BBCB20FD057000DC676C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9690BB9D20FD057000DC676C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9690BBA420FD057000DC676C;
+			remoteInfo = NaveEspacial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9690BBA520FD057000DC676C /* NaveEspacial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaveEspacial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9690BBA820FD057000DC676C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9690BBAA20FD057000DC676C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		9690BBAC20FD057000DC676C /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		9690BBAE20FD057000DC676C /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		9690BBB020FD057000DC676C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		9690BBB320FD057000DC676C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9690BBB520FD057000DC676C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9690BBB820FD057000DC676C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9690BBBA20FD057000DC676C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9690BBBF20FD057000DC676C /* NaveEspacialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaveEspacialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9690BBC320FD057000DC676C /* NaveEspacialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaveEspacialTests.swift; sourceTree = "<group>"; };
+		9690BBC520FD057000DC676C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9690BBCA20FD057000DC676C /* NaveEspacialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaveEspacialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9690BBCE20FD057000DC676C /* NaveEspacialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaveEspacialUITests.swift; sourceTree = "<group>"; };
+		9690BBD020FD057000DC676C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9690BBA220FD057000DC676C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9690BBBC20FD057000DC676C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9690BBC720FD057000DC676C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9690BB9C20FD057000DC676C = {
+			isa = PBXGroup;
+			children = (
+				9690BBA720FD057000DC676C /* NaveEspacial */,
+				9690BBC220FD057000DC676C /* NaveEspacialTests */,
+				9690BBCD20FD057000DC676C /* NaveEspacialUITests */,
+				9690BBA620FD057000DC676C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9690BBA620FD057000DC676C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9690BBA520FD057000DC676C /* NaveEspacial.app */,
+				9690BBBF20FD057000DC676C /* NaveEspacialTests.xctest */,
+				9690BBCA20FD057000DC676C /* NaveEspacialUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9690BBA720FD057000DC676C /* NaveEspacial */ = {
+			isa = PBXGroup;
+			children = (
+				9690BBA820FD057000DC676C /* AppDelegate.swift */,
+				9690BBAA20FD057000DC676C /* GameScene.sks */,
+				9690BBAC20FD057000DC676C /* Actions.sks */,
+				9690BBAE20FD057000DC676C /* GameScene.swift */,
+				9690BBB020FD057000DC676C /* GameViewController.swift */,
+				9690BBB220FD057000DC676C /* Main.storyboard */,
+				9690BBB520FD057000DC676C /* Assets.xcassets */,
+				9690BBB720FD057000DC676C /* LaunchScreen.storyboard */,
+				9690BBBA20FD057000DC676C /* Info.plist */,
+			);
+			path = NaveEspacial;
+			sourceTree = "<group>";
+		};
+		9690BBC220FD057000DC676C /* NaveEspacialTests */ = {
+			isa = PBXGroup;
+			children = (
+				9690BBC320FD057000DC676C /* NaveEspacialTests.swift */,
+				9690BBC520FD057000DC676C /* Info.plist */,
+			);
+			path = NaveEspacialTests;
+			sourceTree = "<group>";
+		};
+		9690BBCD20FD057000DC676C /* NaveEspacialUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9690BBCE20FD057000DC676C /* NaveEspacialUITests.swift */,
+				9690BBD020FD057000DC676C /* Info.plist */,
+			);
+			path = NaveEspacialUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9690BBA420FD057000DC676C /* NaveEspacial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9690BBD320FD057000DC676C /* Build configuration list for PBXNativeTarget "NaveEspacial" */;
+			buildPhases = (
+				9690BBA120FD057000DC676C /* Sources */,
+				9690BBA220FD057000DC676C /* Frameworks */,
+				9690BBA320FD057000DC676C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NaveEspacial;
+			productName = NaveEspacial;
+			productReference = 9690BBA520FD057000DC676C /* NaveEspacial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9690BBBE20FD057000DC676C /* NaveEspacialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9690BBD620FD057000DC676C /* Build configuration list for PBXNativeTarget "NaveEspacialTests" */;
+			buildPhases = (
+				9690BBBB20FD057000DC676C /* Sources */,
+				9690BBBC20FD057000DC676C /* Frameworks */,
+				9690BBBD20FD057000DC676C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9690BBC120FD057000DC676C /* PBXTargetDependency */,
+			);
+			name = NaveEspacialTests;
+			productName = NaveEspacialTests;
+			productReference = 9690BBBF20FD057000DC676C /* NaveEspacialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9690BBC920FD057000DC676C /* NaveEspacialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9690BBD920FD057000DC676C /* Build configuration list for PBXNativeTarget "NaveEspacialUITests" */;
+			buildPhases = (
+				9690BBC620FD057000DC676C /* Sources */,
+				9690BBC720FD057000DC676C /* Frameworks */,
+				9690BBC820FD057000DC676C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9690BBCC20FD057000DC676C /* PBXTargetDependency */,
+			);
+			name = NaveEspacialUITests;
+			productName = NaveEspacialUITests;
+			productReference = 9690BBCA20FD057000DC676C /* NaveEspacialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9690BB9D20FD057000DC676C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "JuanPablo Salazar";
+				TargetAttributes = {
+					9690BBA420FD057000DC676C = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					9690BBBE20FD057000DC676C = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 9690BBA420FD057000DC676C;
+					};
+					9690BBC920FD057000DC676C = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 9690BBA420FD057000DC676C;
+					};
+				};
+			};
+			buildConfigurationList = 9690BBA020FD057000DC676C /* Build configuration list for PBXProject "NaveEspacial" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9690BB9C20FD057000DC676C;
+			productRefGroup = 9690BBA620FD057000DC676C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9690BBA420FD057000DC676C /* NaveEspacial */,
+				9690BBBE20FD057000DC676C /* NaveEspacialTests */,
+				9690BBC920FD057000DC676C /* NaveEspacialUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9690BBA320FD057000DC676C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9690BBB420FD057000DC676C /* Main.storyboard in Resources */,
+				9690BBAB20FD057000DC676C /* GameScene.sks in Resources */,
+				9690BBB620FD057000DC676C /* Assets.xcassets in Resources */,
+				9690BBB920FD057000DC676C /* LaunchScreen.storyboard in Resources */,
+				9690BBAD20FD057000DC676C /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9690BBBD20FD057000DC676C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9690BBC820FD057000DC676C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9690BBA120FD057000DC676C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9690BBAF20FD057000DC676C /* GameScene.swift in Sources */,
+				9690BBB120FD057000DC676C /* GameViewController.swift in Sources */,
+				9690BBA920FD057000DC676C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9690BBBB20FD057000DC676C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9690BBC420FD057000DC676C /* NaveEspacialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9690BBC620FD057000DC676C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9690BBCF20FD057000DC676C /* NaveEspacialUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9690BBC120FD057000DC676C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9690BBA420FD057000DC676C /* NaveEspacial */;
+			targetProxy = 9690BBC020FD057000DC676C /* PBXContainerItemProxy */;
+		};
+		9690BBCC20FD057000DC676C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9690BBA420FD057000DC676C /* NaveEspacial */;
+			targetProxy = 9690BBCB20FD057000DC676C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9690BBB220FD057000DC676C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9690BBB320FD057000DC676C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9690BBB720FD057000DC676C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9690BBB820FD057000DC676C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9690BBD120FD057000DC676C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9690BBD220FD057000DC676C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9690BBD420FD057000DC676C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NaveEspacial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JPSA.NaveEspacial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9690BBD520FD057000DC676C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NaveEspacial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JPSA.NaveEspacial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9690BBD720FD057000DC676C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NaveEspacialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JPSA.NaveEspacialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NaveEspacial.app/NaveEspacial";
+			};
+			name = Debug;
+		};
+		9690BBD820FD057000DC676C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NaveEspacialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JPSA.NaveEspacialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NaveEspacial.app/NaveEspacial";
+			};
+			name = Release;
+		};
+		9690BBDA20FD057000DC676C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NaveEspacialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JPSA.NaveEspacialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NaveEspacial;
+			};
+			name = Debug;
+		};
+		9690BBDB20FD057000DC676C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NaveEspacialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JPSA.NaveEspacialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NaveEspacial;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9690BBA020FD057000DC676C /* Build configuration list for PBXProject "NaveEspacial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9690BBD120FD057000DC676C /* Debug */,
+				9690BBD220FD057000DC676C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9690BBD320FD057000DC676C /* Build configuration list for PBXNativeTarget "NaveEspacial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9690BBD420FD057000DC676C /* Debug */,
+				9690BBD520FD057000DC676C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9690BBD620FD057000DC676C /* Build configuration list for PBXNativeTarget "NaveEspacialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9690BBD720FD057000DC676C /* Debug */,
+				9690BBD820FD057000DC676C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9690BBD920FD057000DC676C /* Build configuration list for PBXNativeTarget "NaveEspacialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9690BBDA20FD057000DC676C /* Debug */,
+				9690BBDB20FD057000DC676C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9690BB9D20FD057000DC676C /* Project object */;
+}
